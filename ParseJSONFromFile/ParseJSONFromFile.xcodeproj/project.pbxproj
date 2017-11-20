@@ -12,6 +12,8 @@
 		60ADEDD31FC2C27B00BE9BC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60ADEDD11FC2C27B00BE9BC0 /* Main.storyboard */; };
 		60ADEDD51FC2C27B00BE9BC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60ADEDD41FC2C27B00BE9BC0 /* Assets.xcassets */; };
 		60ADEDD81FC2C27B00BE9BC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60ADEDD61FC2C27B00BE9BC0 /* LaunchScreen.storyboard */; };
+		60ADEDE11FC2C46D00BE9BC0 /* Neko-Minna-Nihongo-Lesson-01.json in Resources */ = {isa = PBXBuildFile; fileRef = 60ADEDE01FC2C46D00BE9BC0 /* Neko-Minna-Nihongo-Lesson-01.json */; };
+		60ADEDE41FC2C6DB00BE9BC0 /* NekoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60ADEDE31FC2C6DB00BE9BC0 /* NekoModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		60ADEDD41FC2C27B00BE9BC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		60ADEDD71FC2C27B00BE9BC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		60ADEDD91FC2C27B00BE9BC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60ADEDE01FC2C46D00BE9BC0 /* Neko-Minna-Nihongo-Lesson-01.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Neko-Minna-Nihongo-Lesson-01.json"; sourceTree = "<group>"; };
+		60ADEDE31FC2C6DB00BE9BC0 /* NekoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NekoModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		60ADEDCC1FC2C27B00BE9BC0 /* ParseJSONFromFile */ = {
 			isa = PBXGroup;
 			children = (
+				60ADEDE21FC2C6AA00BE9BC0 /* Model */,
+				60ADEDDF1FC2C45D00BE9BC0 /* Resources */,
 				60ADEDCD1FC2C27B00BE9BC0 /* AppDelegate.swift */,
 				60ADEDCF1FC2C27B00BE9BC0 /* ViewController.swift */,
 				60ADEDD11FC2C27B00BE9BC0 /* Main.storyboard */,
@@ -62,6 +68,22 @@
 				60ADEDD91FC2C27B00BE9BC0 /* Info.plist */,
 			);
 			path = ParseJSONFromFile;
+			sourceTree = "<group>";
+		};
+		60ADEDDF1FC2C45D00BE9BC0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				60ADEDE01FC2C46D00BE9BC0 /* Neko-Minna-Nihongo-Lesson-01.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		60ADEDE21FC2C6AA00BE9BC0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				60ADEDE31FC2C6DB00BE9BC0 /* NekoModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,6 +145,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60ADEDE11FC2C46D00BE9BC0 /* Neko-Minna-Nihongo-Lesson-01.json in Resources */,
 				60ADEDD81FC2C27B00BE9BC0 /* LaunchScreen.storyboard in Resources */,
 				60ADEDD51FC2C27B00BE9BC0 /* Assets.xcassets in Resources */,
 				60ADEDD31FC2C27B00BE9BC0 /* Main.storyboard in Resources */,
@@ -138,6 +161,7 @@
 			files = (
 				60ADEDD01FC2C27B00BE9BC0 /* ViewController.swift in Sources */,
 				60ADEDCE1FC2C27B00BE9BC0 /* AppDelegate.swift in Sources */,
+				60ADEDE41FC2C6DB00BE9BC0 /* NekoModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

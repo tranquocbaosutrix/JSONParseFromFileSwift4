@@ -1,0 +1,20 @@
+[
+ {
+  "nekoJapanese" : "わたし",
+  "nekoLatin" : "watashi",
+  "nekoKanji" : "私",
+  "nekoKanjiHanViet" : "Tư",
+  "nekoVietNamese" : "tôi",
+  "nekoEnglish" : "I",
+  "nekoSound" : "私"
+ },
+ {
+  "nekoJapanese" : "わたしたち",
+  "nekoLatin" : "watashitachi",
+  "nekoKanji" : "私たち",
+  "nekoKanjiHanViet" : "Tư",
+  "nekoVietNamese" : "chúng tôi, chúng ta",
+  "nekoEnglish" : "we",
+  "nekoSound" : "私たち"
+ }
+]
